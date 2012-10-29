@@ -1,0 +1,1 @@
+$(document).ready(function(){var e=$(window).height();console.log(e);$(".curtain").css("height",e);$(this).bind("scroll",function(){$(this).scrollTop()>=e?$(".main").css("position","static"):$(".main").css("position","fixed")})});
